@@ -1,0 +1,14 @@
+https://www.invertexto.com/dgse31
+
+name: DemoNewCD
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run a one-line script
+        run: echo Hello, world!
